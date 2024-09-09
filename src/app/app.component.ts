@@ -2,11 +2,11 @@ import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { WorkExperienceComponent } from './work-experience/work-experience.component';
 import { HeaderComponent } from './header/header.component';
-
+import { EducationComponent } from './education/education.component';
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet,WorkExperienceComponent,HeaderComponent],
+  imports: [RouterOutlet,WorkExperienceComponent,HeaderComponent,EducationComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
